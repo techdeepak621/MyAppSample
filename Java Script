@@ -1,0 +1,84 @@
+Java Script
+_________________
+
+- lightweight,interprted,oops,first class function,scripting language
+
+variables in js
+ 
+  number,string,boolean,undefined,null,symbol 
+  (ECMA6 TYPE) (enumertion)
+
+  var dec; //declaration
+  dec=10;  //defination
+
+  var decl;
+  if a variable is declare and it is unassigned to a value then it contain one value i.e undefined  type.
+
+  so the above case var decl is undefined.
+
+  null
+
+  undefined vs null
+  
+  typeOf  <value>
+
+
+
+  Type coertion
+  ==   ===
+  
+  === strictly type checking
+
+  Object  in JS
+   _______________
+
+var Obj={} //empty object
+
+obj.prop="hello";  // obj{"hello"}
+
+var Myobj={
+	"prop1":"hello",
+	"prop2":"deepak"	
+};  //inline defination of object
+
+console.log("My Obj Property 1 vaule is"+Myobj.prop1);
+
+console.log("My Obj Property 2 value is"+MyObj["prop2"]);
+
+// we can use [] identifier to access properties which have reserved word /invalid identifier/ start with number /dynamic properties value  properties 
+
+e.g  1:"hello"
+
+	console.log(Myobj["1"]);
+
+
+// object literal notation to create and initialize objects.
+
+
+js object summary
+______________________
+Free form  not bound to a class
+object literal  notation to create object
+object property can be access directly
+object have methods
+
+
+Nested Object
+______________________
+
+var myObj={
+    "prop1":"deepak",
+    "prop2":"mohapatra",
+    "address":{
+        "address":"bangalore"
+    }
+};
+
+console.log(myObj.address.address);
+
+
+
+
+
+
+
